@@ -1,5 +1,5 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 3,
   "name": "'Cheesifying' Chrome Extension",
     "description": "Chrome extension workshop",
     "author": "danilobml",
@@ -19,7 +19,7 @@
         "js": ["scripts/cheesify.js"]
       }
     ],
-    "browser_action": {
+    "action": {
       "default_popup": "popup.html",
       "default_title": "Cheesifying Chrome Extension"
     }
